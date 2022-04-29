@@ -8,12 +8,41 @@ Numerical models describe the world around us mathematically, allowing us to vis
 
 In this clinic, we’ll develop an understanding of what numerical models are, and then we’ll delve into the math that functions as the basis for many models. Participants will learn how to apply basic conservation principles to developing equations that describe a physical system that changes through time. This workshop will expose participants to deriving differential equations, and using basic Python programming to visualize their solutions. Prior experience is not necessary (though familiarity with calculus is helpful).
 
+### Goals
+
+Learning objectives for this clinic include:
+
+- Describe different uses of numerical models
+- Understand how the mass or energy balance method can be used to derive a differential equation for a geo/environmental system
+- Appreciate how simple finite-difference methods can be used to formulate discretized approximations of simple one-dimensional ODEs and diffusion-like PDEs
+
 ### Program
+
+- What is computer modeling and why is it useful?
+- Introduction to the mass balance method: example of a lake basin
+  - Exercises in deriving a model and plotting solutions
+- Finite-difference method: using forward-differencing to iterate in time 
+- Mass balance with a spatial dimension: example of an evolving hillslope
+  - Exercises in adding a source term and plotting equilibrium solutions
+- Finite-differencing: forward-time, centered-space (FTCS) method
+  - Exercise: playing with a simple 1d finite-difference hillslope evolution code
+- Time-stepping and the Courant-Friedrichs-Lewy (CFL) constraint
+- A quick look at extending to 2d
+- (optional, if extra time) Energy balance: deriving and exploring a 1d heat diffusion equation
 
 
 ### Where to learn more?
 
+#### Books
 
+Slingerland, R., & Kump, L. (2011) *Mathematical Modeling of Earth's Dynamical Systems: A Primer.* Princeton University Press.
+
+Press, W. H., Teukolsky, S. A., Vetterling, W. T., & Flannery, B. P. (2007) *Numerical recipes 3rd edition: The art of scientific computing.* Cambridge university press.
+
+
+#### Hands-on tutorials
+
+The *Landlab Fault Scarp* notebook tutorial presents numerical solutions to the diffusion equation for hillslope soil creep, with a 1D example that uses basic Python and NumPy code, a series of 2d examples using Landlab grids and functions, and an example that uses the Landlab `LinearDiffuser` component.
 
 
 ## Session 2: Introduction to Landlab

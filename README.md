@@ -4,8 +4,7 @@ This repository contains materials for a series of three clinics on mathematical
 
 To access the Jupyter Notebooks for these clinics, participants should have a JupyterHub account. They can follow the link below to access everything from this GitHub repo on JupyterHub.
 
-Link: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Flandlab%2Fcsdms_2022_landlab_clinics&urlpath=tree%2Fcsdms_2022_landlab_clinics%2F&branch=main
-
+[click here to pull this GitHub repo to JupyterHub](https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Flandlab%2Fcsdms_2022_landlab_clinics&urlpath=tree%2Fcsdms_2022_landlab_clinics%2F&branch=main)
 ## Session 1: The Art of Modeling: From Concept to Math with Mass Balance
 
 Numerical models describe the world around us mathematically, allowing us to visualize changes to physical systems through both space and time. These models are essential tools for geoscientists, but writing your own model can be a daunting task.
